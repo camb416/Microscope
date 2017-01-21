@@ -16,31 +16,21 @@
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
 		00B9955A1B128DF400A5C623 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995581B128DF400A5C623 /* IOKit.framework */; };
 		00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995591B128DF400A5C623 /* IOSurface.framework */; };
+		32151E081E32B5BD009B593F /* ViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32151E061E32B5BD009B593F /* ViewController.cpp */; };
+		32152A071E32B9FE009B593F /* _DragAndDrop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524D31E32B9FC009B593F /* _DragAndDrop.cpp */; };
+		32152A081E32B9FE009B593F /* _DraggableView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524D41E32B9FC009B593F /* _DraggableView.cpp */; };
+		32152A091E32B9FE009B593F /* _EventCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524D51E32B9FC009B593F /* _EventCenter.cpp */; };
+		32152A0A1E32B9FE009B593F /* _Events.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524D61E32B9FC009B593F /* _Events.cpp */; };
+		32152A0B1E32B9FE009B593F /* _ImageView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524D71E32B9FC009B593F /* _ImageView.cpp */; };
+		32152A0C1E32B9FE009B593F /* _MatrixSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524D81E32B9FC009B593F /* _MatrixSet.cpp */; };
+		32152A0D1E32B9FE009B593F /* _Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524D91E32B9FC009B593F /* _Scene.cpp */; };
+		32152A0E1E32B9FE009B593F /* _ShapeView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524DA1E32B9FC009B593F /* _ShapeView.cpp */; };
+		32152A0F1E32B9FE009B593F /* _TextView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524DB1E32B9FC009B593F /* _TextView.cpp */; };
+		32152A101E32B9FE009B593F /* _View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524DC1E32B9FC009B593F /* _View.cpp */; };
+		32152A111E32B9FE009B593F /* _ViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524DD1E32B9FC009B593F /* _ViewController.cpp */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
-		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		C04C90A3B1784E74B59F073B /* poTextBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84DABFEC4E134E45AE181159 /* poTextBox.cpp */; };
-		CD6C0F49471647DEACF26111 /* poShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D602C721E48412487B4B9A2 /* poShape.cpp */; };
-		2C380DDC70C04D7E8A8F905A /* poScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51E943E98A5249F1B0BE58BF /* poScene.cpp */; };
-		256E98380AA349A39602ABC1 /* poNodeContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD2A2A50903C402DB46935E0 /* poNodeContainer.cpp */; };
-		1D3E4D194B9A4B2A88BB3F47 /* poNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0180E5401E7444369A313ACD /* poNode.cpp */; };
-		CC4D74A768BF41BEB6BC672A /* poMatrixSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF1CCB33D8FB4969B9194FA2 /* poMatrixSet.cpp */; };
-		DDBF640F10CF42DBBDDBDED3 /* poImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38283621539B4F84B9F4F922 /* poImage.cpp */; };
-		EDB671424E9642C490299451 /* poEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E0389E40CD4216A0B7C973 /* poEvents.cpp */; };
-		F55080DF86194B37A7401346 /* poEventCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9E95AD00745B0A4767E5C /* poEventCenter.cpp */; };
-		1D7EDBF728C54607B19D9295 /* poVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D66FE94E45468F83B84ED6 /* poVideo.h */; };
-		03A5377EB27E4AE8925FE751 /* poTextureFit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C69C126F26D499A8B4C607E /* poTextureFit.h */; };
-		BEBA7ECB3D214E8690FA793E /* poTextBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EEF49994A4346E3B7B51C89 /* poTextBox.h */; };
-		F38A872B673943CFABC7A8C4 /* poShape.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA5A56603D14437AFAE2B5E /* poShape.h */; };
-		571AF19A042E4FEA8A684EAE /* poScene.h in Headers */ = {isa = PBXBuildFile; fileRef = FB5FD77B1C9B43708DC4652E /* poScene.h */; };
-		FEF1F91A5097469ABE21CD71 /* poNodeContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F74303B8DC4CAEBC3DDBF7 /* poNodeContainer.h */; };
-		EEBCD3FF15ED430CBF0AF6E0 /* poNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD8BBA53C364784B6935D76 /* poNode.h */; };
-		5B4AFCF911714CC6A816C503 /* poMatrixSet.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6BE7BCEE7E45BF9902E386 /* poMatrixSet.h */; };
-		B26543EDF4E04FC1AC9F8561 /* poImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B0B34743B844D983A445BE /* poImage.h */; };
-		88427FAE8D5E48618BEB24B6 /* poEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 316FA9698F844FE49225A994 /* poEvents.h */; };
-		5C660A82A12F464188B39BBF /* poEventCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 982953AFF93E4B45A7AC807B /* poEventCenter.h */; };
-		7560754665AF4AF4A4C3F0E2 /* Microscope_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 5AFF4526FAEB49C5B86345A9 /* Microscope_Prefix.pch */; };
 		773B0DF30B8844379B16EDDE /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = B856FBF6200F493C891FE372 /* CinderApp.icns */; };
-		49B48634542C4C5ABCB27EE0 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B966D1BD2184286A7B89F6D /* Resources.h */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A2E8A2CBDE2C48A2B9152473 /* MicroscopeApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 251B1E6B91074A5B94C41578 /* MicroscopeApp.cpp */; };
 /* End PBXBuildFile section */
 
@@ -55,35 +45,42 @@
 		00B995581B128DF400A5C623 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		00B995591B128DF400A5C623 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		251B1E6B91074A5B94C41578 /* MicroscopeApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = MicroscopeApp.cpp; path = ../src/MicroscopeApp.cpp; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32151E061E32B5BD009B593F /* ViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewController.cpp; path = ../src/ViewController.cpp; sourceTree = "<group>"; };
+		32151E071E32B5BD009B593F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../src/ViewController.h; sourceTree = "<group>"; };
+		321524D31E32B9FC009B593F /* _DragAndDrop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _DragAndDrop.cpp; sourceTree = "<group>"; };
+		321524D41E32B9FC009B593F /* _DraggableView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _DraggableView.cpp; sourceTree = "<group>"; };
+		321524D51E32B9FC009B593F /* _EventCenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _EventCenter.cpp; sourceTree = "<group>"; };
+		321524D61E32B9FC009B593F /* _Events.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _Events.cpp; sourceTree = "<group>"; };
+		321524D71E32B9FC009B593F /* _ImageView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _ImageView.cpp; sourceTree = "<group>"; };
+		321524D81E32B9FC009B593F /* _MatrixSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _MatrixSet.cpp; sourceTree = "<group>"; };
+		321524D91E32B9FC009B593F /* _Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _Scene.cpp; sourceTree = "<group>"; };
+		321524DA1E32B9FC009B593F /* _ShapeView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _ShapeView.cpp; sourceTree = "<group>"; };
+		321524DB1E32B9FC009B593F /* _TextView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _TextView.cpp; sourceTree = "<group>"; };
+		321524DC1E32B9FC009B593F /* _View.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _View.cpp; sourceTree = "<group>"; };
+		321524DD1E32B9FC009B593F /* _ViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _ViewController.cpp; sourceTree = "<group>"; };
+		321524DE1E32B9FC009B593F /* DragAndDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragAndDrop.h; sourceTree = "<group>"; };
+		321524DF1E32B9FC009B593F /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		321524E01E32B9FC009B593F /* EventCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCenter.h; sourceTree = "<group>"; };
+		321524E11E32B9FC009B593F /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		321524E21E32B9FC009B593F /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		321524E31E32B9FC009B593F /* MatrixSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixSet.h; sourceTree = "<group>"; };
+		321524E41E32B9FC009B593F /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		321524E51E32B9FC009B593F /* ShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeView.h; sourceTree = "<group>"; };
+		321524E61E32B9FC009B593F /* TextureFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureFit.h; sourceTree = "<group>"; };
+		321524E71E32B9FC009B593F /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		321524E81E32B9FC009B593F /* VideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		321524E91E32B9FC009B593F /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		321524EA1E32B9FC009B593F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		321524EB1E32B9FC009B593F /* ViewEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewEvents.h; sourceTree = "<group>"; };
+		4B966D1BD2184286A7B89F6D /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5AFF4526FAEB49C5B86345A9 /* Microscope_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Microscope_Prefix.pch; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Microscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Microscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		251B1E6B91074A5B94C41578 /* MicroscopeApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/MicroscopeApp.cpp; sourceTree = "<group>"; name = MicroscopeApp.cpp; };
-		4B966D1BD2184286A7B89F6D /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
-		B856FBF6200F493C891FE372 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
-		CCBE227E0F6D4203847E8862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
-		5AFF4526FAEB49C5B86345A9 /* Microscope_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Microscope_Prefix.pch; sourceTree = "<group>"; name = Microscope_Prefix.pch; };
-		982953AFF93E4B45A7AC807B /* poEventCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/poScene/src/poScene/poEventCenter.h; sourceTree = "<group>"; name = poEventCenter.h; };
-		316FA9698F844FE49225A994 /* poEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/poScene/src/poScene/poEvents.h; sourceTree = "<group>"; name = poEvents.h; };
-		D2B0B34743B844D983A445BE /* poImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/poScene/src/poScene/poImage.h; sourceTree = "<group>"; name = poImage.h; };
-		FB6BE7BCEE7E45BF9902E386 /* poMatrixSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/poScene/src/poScene/poMatrixSet.h; sourceTree = "<group>"; name = poMatrixSet.h; };
-		4DD8BBA53C364784B6935D76 /* poNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/poScene/src/poScene/poNode.h; sourceTree = "<group>"; name = poNode.h; };
-		81F74303B8DC4CAEBC3DDBF7 /* poNodeContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/poScene/src/poScene/poNodeContainer.h; sourceTree = "<group>"; name = poNodeContainer.h; };
-		FB5FD77B1C9B43708DC4652E /* poScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/poScene/src/poScene/poScene.h; sourceTree = "<group>"; name = poScene.h; };
-		0AA5A56603D14437AFAE2B5E /* poShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/poScene/src/poScene/poShape.h; sourceTree = "<group>"; name = poShape.h; };
-		6EEF49994A4346E3B7B51C89 /* poTextBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/poScene/src/poScene/poTextBox.h; sourceTree = "<group>"; name = poTextBox.h; };
-		6C69C126F26D499A8B4C607E /* poTextureFit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/poScene/src/poScene/poTextureFit.h; sourceTree = "<group>"; name = poTextureFit.h; };
-		B8D66FE94E45468F83B84ED6 /* poVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/poScene/src/poScene/poVideo.h; sourceTree = "<group>"; name = poVideo.h; };
-		0CD9E95AD00745B0A4767E5C /* poEventCenter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/poScene/src/poScene/poEventCenter.cpp; sourceTree = "<group>"; name = poEventCenter.cpp; };
-		19E0389E40CD4216A0B7C973 /* poEvents.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/poScene/src/poScene/poEvents.cpp; sourceTree = "<group>"; name = poEvents.cpp; };
-		38283621539B4F84B9F4F922 /* poImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/poScene/src/poScene/poImage.cpp; sourceTree = "<group>"; name = poImage.cpp; };
-		DF1CCB33D8FB4969B9194FA2 /* poMatrixSet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/poScene/src/poScene/poMatrixSet.cpp; sourceTree = "<group>"; name = poMatrixSet.cpp; };
-		0180E5401E7444369A313ACD /* poNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/poScene/src/poScene/poNode.cpp; sourceTree = "<group>"; name = poNode.cpp; };
-		FD2A2A50903C402DB46935E0 /* poNodeContainer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/poScene/src/poScene/poNodeContainer.cpp; sourceTree = "<group>"; name = poNodeContainer.cpp; };
-		51E943E98A5249F1B0BE58BF /* poScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/poScene/src/poScene/poScene.cpp; sourceTree = "<group>"; name = poScene.cpp; };
-		1D602C721E48412487B4B9A2 /* poShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/poScene/src/poScene/poShape.cpp; sourceTree = "<group>"; name = poShape.cpp; };
-		84DABFEC4E134E45AE181159 /* poTextBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/poScene/src/poScene/poTextBox.cpp; sourceTree = "<group>"; name = poTextBox.cpp; };
+		B856FBF6200F493C891FE372 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		CCBE227E0F6D4203847E8862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +105,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				32151E521E32B9F9009B593F /* Cinder-poScene */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				251B1E6B91074A5B94C41578 /* MicroscopeApp.cpp */,
+				32151E061E32B5BD009B593F /* ViewController.cpp */,
+				32151E071E32B5BD009B593F /* ViewController.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -164,57 +171,6 @@
 			name = Microscope;
 			sourceTree = "<group>";
 		};
-		3C9001443B824BB8B58C8D42 /* poScene */ = {
-			isa = PBXGroup;
-			children = (
-				982953AFF93E4B45A7AC807B /* poEventCenter.h */,
-				316FA9698F844FE49225A994 /* poEvents.h */,
-				D2B0B34743B844D983A445BE /* poImage.h */,
-				FB6BE7BCEE7E45BF9902E386 /* poMatrixSet.h */,
-				4DD8BBA53C364784B6935D76 /* poNode.h */,
-				81F74303B8DC4CAEBC3DDBF7 /* poNodeContainer.h */,
-				FB5FD77B1C9B43708DC4652E /* poScene.h */,
-				0AA5A56603D14437AFAE2B5E /* poShape.h */,
-				6EEF49994A4346E3B7B51C89 /* poTextBox.h */,
-				6C69C126F26D499A8B4C607E /* poTextureFit.h */,
-				B8D66FE94E45468F83B84ED6 /* poVideo.h */,
-				0CD9E95AD00745B0A4767E5C /* poEventCenter.cpp */,
-				19E0389E40CD4216A0B7C973 /* poEvents.cpp */,
-				38283621539B4F84B9F4F922 /* poImage.cpp */,
-				DF1CCB33D8FB4969B9194FA2 /* poMatrixSet.cpp */,
-				0180E5401E7444369A313ACD /* poNode.cpp */,
-				FD2A2A50903C402DB46935E0 /* poNodeContainer.cpp */,
-				51E943E98A5249F1B0BE58BF /* poScene.cpp */,
-				1D602C721E48412487B4B9A2 /* poShape.cpp */,
-				84DABFEC4E134E45AE181159 /* poTextBox.cpp */,
-			);
-			name = poScene;
-			sourceTree = "<group>";
-		};
-		B0D35D70A05344459B38ABE3 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				3C9001443B824BB8B58C8D42 /* poScene */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		7A490E9DE78647E7B7C3C135 /* poScene */ = {
-			isa = PBXGroup;
-			children = (
-				B0D35D70A05344459B38ABE3 /* src */,
-			);
-			name = poScene;
-			sourceTree = "<group>";
-		};
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-				7A490E9DE78647E7B7C3C135 /* poScene */,
-			);
-			name = Blocks;
-			sourceTree = "<group>";
-		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +196,55 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32151E521E32B9F9009B593F /* Cinder-poScene */ = {
+			isa = PBXGroup;
+			children = (
+				321524D11E32B9FC009B593F /* src */,
+			);
+			name = "Cinder-poScene";
+			path = "../../../Cinder/blocks/Cinder-poScene";
+			sourceTree = "<group>";
+		};
+		321524D11E32B9FC009B593F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				321524D21E32B9FC009B593F /* poScene */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		321524D21E32B9FC009B593F /* poScene */ = {
+			isa = PBXGroup;
+			children = (
+				321524D31E32B9FC009B593F /* _DragAndDrop.cpp */,
+				321524D41E32B9FC009B593F /* _DraggableView.cpp */,
+				321524D51E32B9FC009B593F /* _EventCenter.cpp */,
+				321524D61E32B9FC009B593F /* _Events.cpp */,
+				321524D71E32B9FC009B593F /* _ImageView.cpp */,
+				321524D81E32B9FC009B593F /* _MatrixSet.cpp */,
+				321524D91E32B9FC009B593F /* _Scene.cpp */,
+				321524DA1E32B9FC009B593F /* _ShapeView.cpp */,
+				321524DB1E32B9FC009B593F /* _TextView.cpp */,
+				321524DC1E32B9FC009B593F /* _View.cpp */,
+				321524DD1E32B9FC009B593F /* _ViewController.cpp */,
+				321524DE1E32B9FC009B593F /* DragAndDrop.h */,
+				321524DF1E32B9FC009B593F /* DraggableView.h */,
+				321524E01E32B9FC009B593F /* EventCenter.h */,
+				321524E11E32B9FC009B593F /* Events.h */,
+				321524E21E32B9FC009B593F /* ImageView.h */,
+				321524E31E32B9FC009B593F /* MatrixSet.h */,
+				321524E41E32B9FC009B593F /* Scene.h */,
+				321524E51E32B9FC009B593F /* ShapeView.h */,
+				321524E61E32B9FC009B593F /* TextureFit.h */,
+				321524E71E32B9FC009B593F /* TextView.h */,
+				321524E81E32B9FC009B593F /* VideoView.h */,
+				321524E91E32B9FC009B593F /* View.h */,
+				321524EA1E32B9FC009B593F /* ViewController.h */,
+				321524EB1E32B9FC009B593F /* ViewEvents.h */,
+			);
+			path = poScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +273,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Microscope" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -303,16 +310,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32152A0A1E32B9FE009B593F /* _Events.cpp in Sources */,
+				32152A0D1E32B9FE009B593F /* _Scene.cpp in Sources */,
+				32152A091E32B9FE009B593F /* _EventCenter.cpp in Sources */,
+				32152A101E32B9FE009B593F /* _View.cpp in Sources */,
 				A2E8A2CBDE2C48A2B9152473 /* MicroscopeApp.cpp in Sources */,
-				F55080DF86194B37A7401346 /* poEventCenter.cpp in Sources */,
-				EDB671424E9642C490299451 /* poEvents.cpp in Sources */,
-				DDBF640F10CF42DBBDDBDED3 /* poImage.cpp in Sources */,
-				CC4D74A768BF41BEB6BC672A /* poMatrixSet.cpp in Sources */,
-				1D3E4D194B9A4B2A88BB3F47 /* poNode.cpp in Sources */,
-				256E98380AA349A39602ABC1 /* poNodeContainer.cpp in Sources */,
-				2C380DDC70C04D7E8A8F905A /* poScene.cpp in Sources */,
-				CD6C0F49471647DEACF26111 /* poShape.cpp in Sources */,
-				C04C90A3B1784E74B59F073B /* poTextBox.cpp in Sources */,
+				32152A0E1E32B9FE009B593F /* _ShapeView.cpp in Sources */,
+				32152A111E32B9FE009B593F /* _ViewController.cpp in Sources */,
+				32152A0F1E32B9FE009B593F /* _TextView.cpp in Sources */,
+				32152A071E32B9FE009B593F /* _DragAndDrop.cpp in Sources */,
+				32152A0B1E32B9FE009B593F /* _ImageView.cpp in Sources */,
+				32152A081E32B9FE009B593F /* _DraggableView.cpp in Sources */,
+				32152A0C1E32B9FE009B593F /* _MatrixSet.cpp in Sources */,
+				32151E081E32B5BD009B593F /* ViewController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,17 +333,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Microscope_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Microscope_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
@@ -355,12 +365,12 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Microscope_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"NDEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Microscope_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
@@ -377,7 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CINDER_PATH = "../../../Cinder";
+				CINDER_PATH = ../../../Cinder;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CLANG_CXX_LIBRARY = "libc++";
 				ENABLE_TESTABILITY = YES;
@@ -387,10 +397,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = (
-					"\"$(CINDER_PATH)/include\" ../include",
-					../blocks/poScene/src/poScene,
-				);
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include $(CINDER_PATH)/blocks/Cinder-poScene/src";
 			};
 			name = Debug;
 		};
@@ -398,7 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CINDER_PATH = "../../../Cinder";
+				CINDER_PATH = ../../../Cinder;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -406,10 +413,7 @@
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = (
-					"\"$(CINDER_PATH)/include\" ../include",
-					../blocks/poScene/src/poScene,
-				);
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include $(CINDER_PATH)/blocks/Cinder-poScene/src";
 			};
 			name = Release;
 		};
