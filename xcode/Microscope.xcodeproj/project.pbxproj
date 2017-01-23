@@ -28,6 +28,7 @@
 		32152A0F1E32B9FE009B593F /* _TextView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524DB1E32B9FC009B593F /* _TextView.cpp */; };
 		32152A101E32B9FE009B593F /* _View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524DC1E32B9FC009B593F /* _View.cpp */; };
 		32152A111E32B9FE009B593F /* _ViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321524DD1E32B9FC009B593F /* _ViewController.cpp */; };
+		32790EEF1E35C201005C0DF7 /* Bubble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32790EED1E35C201005C0DF7 /* Bubble.cpp */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		773B0DF30B8844379B16EDDE /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = B856FBF6200F493C891FE372 /* CinderApp.icns */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -75,6 +76,8 @@
 		321524E91E32B9FC009B593F /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 		321524EA1E32B9FC009B593F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		321524EB1E32B9FC009B593F /* ViewEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewEvents.h; sourceTree = "<group>"; };
+		32790EED1E35C201005C0DF7 /* Bubble.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Bubble.cpp; path = ../src/Bubble.cpp; sourceTree = "<group>"; };
+		32790EEE1E35C201005C0DF7 /* Bubble.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Bubble.hpp; path = ../src/Bubble.hpp; sourceTree = "<group>"; };
 		4B966D1BD2184286A7B89F6D /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5AFF4526FAEB49C5B86345A9 /* Microscope_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Microscope_Prefix.pch; sourceTree = "<group>"; };
@@ -117,8 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				251B1E6B91074A5B94C41578 /* MicroscopeApp.cpp */,
-				32151E061E32B5BD009B593F /* ViewController.cpp */,
 				32151E071E32B5BD009B593F /* ViewController.h */,
+				32151E061E32B5BD009B593F /* ViewController.cpp */,
+				32790EED1E35C201005C0DF7 /* Bubble.cpp */,
+				32790EEE1E35C201005C0DF7 /* Bubble.hpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 				32152A0A1E32B9FE009B593F /* _Events.cpp in Sources */,
 				32152A0D1E32B9FE009B593F /* _Scene.cpp in Sources */,
 				32152A091E32B9FE009B593F /* _EventCenter.cpp in Sources */,
+				32790EEF1E35C201005C0DF7 /* Bubble.cpp in Sources */,
 				32152A101E32B9FE009B593F /* _View.cpp in Sources */,
 				A2E8A2CBDE2C48A2B9152473 /* MicroscopeApp.cpp in Sources */,
 				32152A0E1E32B9FE009B593F /* _ShapeView.cpp in Sources */,
