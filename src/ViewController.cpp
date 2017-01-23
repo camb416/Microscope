@@ -64,8 +64,8 @@ namespace microscope {
       //  b->setPosition(ci::vec2(100,100));
       //  getView()->addSubview(b);
         
-        for(int i=0;i<128;i++){
-            BubbleRef thisBubble = Bubble::create("A Bubble", ci::Color(1,1,1), ci::randFloat(100.0f) );
+        for(int i=0;i<64;i++){
+            BubbleRef thisBubble = Bubble::create("A Bubble", ci::Color(1,0,0), ci::randFloat(100.0f) );
             thisBubble->setPosition(ci::vec2(ci::randFloat(ci::app::getWindowWidth()), ci::randFloat(ci::app::getWindowHeight())));
             getView()->addSubview(thisBubble);
             bubbles.push_back(thisBubble);

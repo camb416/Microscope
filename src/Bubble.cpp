@@ -11,6 +11,7 @@
 
 #include "cinder/app/App.h"
 #include "poScene/ShapeView.h"
+#include "poScene/ImageView.h"
 
 using namespace po::scene;
 
@@ -21,14 +22,30 @@ BubbleRef Bubble::create(std::string name, ci::Color color, float radius){
 }
 
 void Bubble::setup(std::string name, ci::Color color, float radius=100.0f){
+    
+    
+    // load an image and put it in a texture
+    mTex = ci::gl::Texture::create(ci::loadImage(ci::app::loadAsset("cat.jpg")));
+    mTex->setWrap(GL_CLAMP_TO_BORDER, GL_CLAMP_TO_BORDER);
+    
     mRadius = radius;
-    ci::app::console() << "Bubble::setup";
+   //  ci::app::console() << "Bubble::setup";
     // create shape
-    //mBaseShape = ShapeView::createRect(100,100);
-    mBaseShape = ShapeView::createCircle(mRadius);
+    mBaseShape = ShapeView::createRect(100,100);
+    mCircleShape = ShapeView::createCircle(radius);
     mBaseColor = color;
-    mBaseShape->setFillColor(color);
+    
+    mBaseShape->setStrokeEnabled(true);
+    mBaseShape->setStrokeColor(color);
+    mBaseShape->setFillEnabled(false);
+    mCircleShape->setFillColor(ci::Color(1,1,1));
+
+    
+    // learn texturemanager!
+     mCircleShape->setTexture(mTex,po::scene::TextureFit::Type::INSIDE,po::scene::Alignment::CENTER_CENTER);
+    addSubview(mCircleShape);
     addSubview(mBaseShape);
+    
     
     // create label
     // nah

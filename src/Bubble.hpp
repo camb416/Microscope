@@ -25,7 +25,9 @@ public:
 protected:
     // nothing is protected
 private:
+    ci::gl::TextureRef mTex;
     po::scene::ViewRef mBaseShape;
+    po::scene::ShapeViewRef mCircleShape;
     ci::vec2 mBasePosition;
     ci::Color mBaseColor;
     
