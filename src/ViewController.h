@@ -9,6 +9,8 @@
 #ifndef ViewController_hpp
 #define ViewController_hpp
 
+#include "Bubble.hpp"
+
 #include "poScene/ViewController.h"
 #include "poScene/ShapeView.h"
 #include "poScene/ImageView.h"
@@ -34,6 +36,9 @@ namespace microscope {
         
         // Mouse Event Handlers
         void onMouseMove(po::scene::MouseEvent &evt);
+        
+        BubbleRef b;
+        std::vector<BubbleRef> bubbles;
         
     };
 }
